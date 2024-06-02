@@ -12,6 +12,7 @@ public class ValidationResult {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
     private String vehiclePlate;
-    private long idClient;
+    private String idClient;
     private String status;
+    private int points = 0;
 }
